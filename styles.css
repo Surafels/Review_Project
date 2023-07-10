@@ -1,0 +1,46 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    align-items: center;
+    justify-content: center;
+}
+input, label {
+    width: 60%;
+    height: 30px;
+    font-size: large;
+}
+#container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-img{
+   /* max-width: 50%;  */
+   width: 30%;
+   height: 100%;
+}
+#nav-bar{
+    font-weight: 400;
+    width: 90%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 70%;
+    
+
+}
+#video{
+    width: 320px;
+    height: 240px;
+ 
+}
